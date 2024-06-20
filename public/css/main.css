@@ -1,0 +1,118 @@
+body {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+  }
+
+  main {
+      padding: 1rem;
+  }
+
+  .main-header {
+      width: 100%;
+      height: 3.5rem;
+      background-color: #dbc441;
+      padding: 0 1.5rem;
+  }
+
+  .main-header__nav {
+      height: 100%;
+      display: flex;
+      align-items: center;
+  }
+
+  .main-header__item-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+
+  .main-header__item {
+      margin: 0 1rem;
+      padding: 0;
+  }
+
+  .main-header__item a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .main-header__item a:hover,
+  .main-header__item a:active,
+  .main-header__item a.active {
+      color: #3e00a1;
+  }
+   
+  
+   .form-box {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0; 
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      width: 80%;
+      max-width: 600px; 
+      padding: 20px;
+      background-color: #ffffff; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      border-radius: 8px; 
+    }
+  
+    .form-container label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block;
+    }
+  
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="number"],
+    .form-container input[type="time"] {
+      width: calc(100% - 20px); 
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;
+      font-size: 16px;
+      transition: border-color 0.3s ease-in-out;
+    }
+  
+    .form-container input[type="text"]:hover,
+    .form-container input[type="email"]:hover,
+    .form-container input[type="number"]:hover,
+    .form-container input[type="time"]:hover {
+      border-color: #aaa; 
+    }
+  
+   
+    .form-container input[type="text"]:focus,
+    .form-container input[type="email"]:focus,
+    .form-container input[type="number"]:focus,
+    .form-container input[type="time"]:focus {
+      outline: none;
+      border-color: #007bff; 
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+    }
+  
+  
+    .form-container input[type="submit"] {
+      background-color: #007bff;
+      color: #fff; 
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease-in-out;
+    }
+  
+  
+    .form-container input[type="submit"]:hover {
+      background-color: #0056b3; 
+    }
